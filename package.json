@@ -1,7 +1,7 @@
 {
   "name": "yuro",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://github.com/eagle6eye/yuro",
   "devDependencies": {
     "gh-pages": "2.0.1"
