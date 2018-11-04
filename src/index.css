@@ -1,0 +1,244 @@
+.body {
+  font-family: Minion Pro, Times New Roman, Serif;
+  margin: 0;
+}
+
+.main {
+  display: grid;
+  gap: 3rem;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADERRRRRRRRRR */
+
+.header {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  height: 9rem;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.nav-links {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* HEADERRRRRRRRRR */
+
+.hero {
+  display: grid;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background: linear-gradient(
+      to right,
+      rgba(0, 128, 0, 0.8),
+      rgba(0, 188, 212, 0.8),
+      rgba(213, 0, 0, 0.5),
+      rgba(255, 193, 7)
+    ),
+    url(http://www.nutritionaloutlook.com/sites/default/files/iStock_000010777314_Large.jpg);
+  background-size: 100% 100%;
+}
+
+h1 {
+  font-size: 5rem;
+
+  text-align: center;
+}
+h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.action-btn {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  background: red;
+  text-align: center;
+  padding: 0.5em 2em;
+  border-radius: 40px;
+  transition: 0.4s;
+  width: 5rem;
+  justify-self: center;
+}
+
+.action-btn:hover {
+  box-shadow: 0 10px 50px rgba(188, 197, 216, 1);
+}
+
+/* HEADERRRRRRRRRR */
+
+.section {
+  display: grid;
+  gap: 2em;
+  margin: 0 80px 0 80px;
+}
+
+.about {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 2fr 2fr;
+  background: url(https://cdn.hipwallpaper.com/i/49/40/ilwXRJ.jpg);
+  background-size: cover;
+  color: #102644;
+  font-weight: 800;
+  border: 1px solid white;
+  justify-items: start;
+  align-items: center;
+
+  padding-left: 100px;
+  height: 35rem;
+  box-sizing: border-box;
+}
+
+.goals {
+  background: linear-gradient(
+      to right,
+      rgba(252, 187, 8, 0.705),
+      rgba(252, 187, 8, 0.705)
+    ),
+    url(http://100bmc.org/wp-content/uploads/2017/01/header_act.jpg);
+
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  height: 35rem;
+  box-sizing: border-box;
+}
+
+.goal {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  font-size: 2rem;
+  padding-left: 100px;
+}
+.info {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  color: #102644;
+  align-items: center;
+  width: 70%;
+  height: 30rem;
+  box-sizing: border-box;
+}
+
+.programs {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+.program {
+  background: red;
+  color: white;
+  border-radius: 40px;
+  padding: 15px;
+  transition: 0.05s;
+  font-size: 1.5rem;
+}
+
+.program:hover {
+  background: green;
+  box-shadow: 0 10px 50px rgb(126, 241, 18);
+}
+
+.footer {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  background: url(https://www.setaswall.com/wp-content/uploads/2017/12/Black-Purple-Wallpaper-04-3840x2400.jpg);
+  background-size: cover;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+}
+
+/* ABOUTTTTTTTTTTTTTTTTT */
+
+.aboutus {
+  display: grid;
+  gap: 15px;
+  margin: 5rem 20rem;
+  justify-items: center;
+}
+
+.aboutus h2 {
+  font-size: 3rem;
+}
+
+.aboutus h4 {
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
+
+/* CONTACTTTTTTTTTTTTTTT */
+
+.contact-header {
+  display: grid;
+
+  grid-template-columns: 1fr 1.5fr;
+}
+
+.contact {
+  margin-top: 2rem;
+
+  background: url(https://i2.wp.com/blackyouthproject.com/wp-content/uploads/2016/07/Black-guy-office.png?fit=1221%2C815);
+  background-size: cover;
+}
+
+.contact-text {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.contact-text h3,
+h4 {
+  background-color: rgba(5, 66, 233, 0.2);
+  width: 30%;
+
+  box-sizing: border-box;
+
+  background-size: cover;
+}
+
+.contact-section {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-card {
+  display: grid;
+  gap: 20px;
+  grid-template-rows: repeat(4, 1fr);
+  margin-bottom: 10rem;
+  font-size: 1rem;
+}
+
+.contact-card textarea {
+  height: 25vh;
+}
