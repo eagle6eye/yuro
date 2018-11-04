@@ -120,9 +120,12 @@ h3 {
     url(http://100bmc.org/wp-content/uploads/2017/01/header_act.jpg);
 
   display: grid;
+
   grid-template-columns: repeat(auto, 1fr);
   height: 35rem;
   box-sizing: border-box;
+  font-weight: 800;
+  color: black;
 }
 
 .goal {
@@ -215,14 +218,13 @@ h3 {
   align-items: center;
 }
 
-.contact-text h3,
-h4 {
-  background-color: rgba(5, 66, 233, 0.2);
+.contact-text {
+  display: grid;
+  grid: 20px;
+  justify-items: right;
+  margin-left: 40%;
   width: 30%;
-
   box-sizing: border-box;
-
-  background-size: cover;
 }
 
 .contact-section {

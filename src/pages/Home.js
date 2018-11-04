@@ -33,11 +33,11 @@ export default class Home extends Component {
           <div className="goals">
             <h3>OUR OBJECTIVES</h3>
             <ol className="goal">
-              <li>reduce crime</li>
-              <li>reduce crime</li>
-              <li>reduce crime</li>
-              <li>reduce crime</li>
-              <li>reduce crime</li>
+              <li>Empower Youth</li>
+              <li>Create Programs</li>
+              <li>Promote Skills/Job Training</li>
+              <li>Instill passion for Learning</li>
+              <li>Eliminate the cycle of crime</li>
             </ol>
           </div>
           <div className="info">
