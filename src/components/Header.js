@@ -11,30 +11,30 @@ export default class Footer extends Component {
       <div className="header">
         <div className="logo">
           <NavLink to="/">
-            <a>
+            <div>
               <img src={logo} height="160px" alt="logo" />
-            </a>
+            </div>
           </NavLink>
         </div>
         <div className="nav-links">
           <div>
             <NavLink to="/about">
-              <a>About us</a>{" "}
+              <div>About us</div>{" "}
             </NavLink>
           </div>
           <div>
             <NavLink to="/programs">
-              <a href="#">Programs</a>{" "}
+              <div>Programs</div>{" "}
             </NavLink>
           </div>
           <div>
             <NavLink to="/">
-              <a href="#">Partners</a>{" "}
+              <div>Partners</div>{" "}
             </NavLink>
           </div>
           <div>
             <NavLink to="/contact">
-              <a href="#">Contact</a>{" "}
+              <div>Contact</div>{" "}
             </NavLink>
           </div>
         </div>

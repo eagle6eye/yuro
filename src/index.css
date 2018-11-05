@@ -21,25 +21,22 @@ a {
 
 .header {
   display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   font-size: 30px;
   align-items: center;
   justify-content: center;
   height: 9rem;
-}
-
-.logo {
-  margin-bottom: 20px;
+  margin-bottom: 5%;
 }
 
 .nav-links {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
-/* HEADERRRRRRRRRR */
+/* HOMEPAGEEEEEEEEEE */
 
 .hero {
   display: grid;
@@ -184,7 +181,8 @@ h3 {
 .aboutus {
   display: grid;
   gap: 15px;
-  margin: 5rem 20rem;
+  grid-template-columns: repeat(auto, minmax(200px, 1fr));
+  margin: 0 15%;
   justify-items: center;
 }
 
@@ -243,4 +241,13 @@ h3 {
 
 .contact-card textarea {
   height: 25vh;
+  font-size: 1.5rem;
+}
+
+.btn {
+  background: red;
+  width: 150px;
+  height: 3rem;
+  border-radius: 20px;
+  font-size: 2rem;
 }

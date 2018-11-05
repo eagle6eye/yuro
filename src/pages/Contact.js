@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Form from "../components/Form";
 
 export default class Contact extends Component {
   render() {
@@ -18,13 +19,7 @@ export default class Contact extends Component {
           <div className="contact" />
         </main>
         <section className="contact-section">
-          <div className="contact-card">
-            <h4>Contact Us</h4>
-            <input placeholder="Name" />
-            <input placeholder="Email" />
-            <input placeholder="Phone" />
-            <textarea placeholder="Your Message" />
-          </div>
+          <Form />
           <div>telajsss</div>
         </section>
 

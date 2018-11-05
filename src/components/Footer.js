@@ -10,14 +10,16 @@ export default class Footer extends Component {
           <h2>About</h2>
           <h4>
             <NavLink to="/about">
-              <a href="#">About</a>
+              <div>About</div>
             </NavLink>
           </h4>
           <h4>
             <a href="#">Our Team</a>
           </h4>
           <h4>
-            <a href="#">Mission</a>
+            <NavLink to="/about">
+              <div>Mission</div>
+            </NavLink>
           </h4>
         </div>
         <div className="footers">
