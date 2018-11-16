@@ -11,12 +11,13 @@ export default class Home extends Component {
         <div className="hero">
           <div>
             <h1>Youth United Reintegration Organization</h1>
-            <h3>Re-shaping the narrative of black youth in Canada</h3>
+            <h3>Re-shaping the Narrative of Black Youth in Canada</h3>
           </div>
           <a href="#" className="action-btn">
             More Info
           </a>
         </div>
+
         <section className="section">
           <div className="about">
             <h3>PROBLEM FACING US</h3>
@@ -53,7 +54,7 @@ export default class Home extends Component {
           </div>
           <section className="programs">
             <div className="program skills">
-              <h4>Pre-employment Skills Training</h4>
+              <h3>Pre-employment Skills Training</h3>
               <ul>
                 <li> leadership/Mentoring Programs</li>
                 <li>Helping with resumes and cover letter</li>
@@ -63,7 +64,7 @@ export default class Home extends Component {
               </ul>
             </div>
             <div className="program health">
-              <h4>Physical &amp; Mental Health</h4>
+              <h3>Physical &amp; Mental Health</h3>
               <p>
                 We’ve set programs to help Youth who are coming out jail or are
                 in conflict with the law to help deal with their mental health
@@ -71,7 +72,7 @@ export default class Home extends Component {
               </p>
             </div>
             <div className="program community">
-              <h4>Community Outreach</h4>
+              <h3>Community Outreach</h3>
               <ul>
                 <li>
                   {" "}
@@ -91,7 +92,7 @@ export default class Home extends Component {
               </ul>
             </div>
             <div className="program parents">
-              <h4>Concern Parents Program</h4>
+              <h3>Concern Parents Program</h3>
               <ul>
                 <li> leadership/Mentoring Programs</li>
                 <li>Helping with resumes and cover letter</li>
@@ -101,7 +102,7 @@ export default class Home extends Component {
               </ul>
             </div>
             <div className="program after-school">
-              <h4>After School Program: d</h4>
+              <h3>After School Program </h3>
               <p>
                 Help kids with home work, cultural classes, sports, recreational
                 activities such as Marshal arts, Soccer, and Summer camp etc. We

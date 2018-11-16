@@ -20,7 +20,6 @@ export default class Contact extends Component {
         </main>
         <section className="contact-section">
           <Form />
-          <div>telajsss</div>
         </section>
 
         <Footer />
